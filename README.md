@@ -146,7 +146,11 @@ Please refer to the [Google Group](https://groups.google.com/a/dt42.io/d/forum/b
 
 # NOTES (PHAM):
 
-Install on Pi3 may require mongodb 
+Install on Pi3 may require mongodb --> "Connection refured" issue
 ```
 sudo apt-get install mongodb-server
+```
+Install opencv for python3 --> "dashboard does not display" issue
+```
+pip3 install opencv-python
 ```
