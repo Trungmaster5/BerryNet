@@ -154,3 +154,12 @@ Install opencv for python3 --> "dashboard does not display" issue
 ```
 pip3 install opencv-python
 ```
+Test installation with
+```
+python3
+import cv2
+```
+If ImportError: libcblas.so.3. Try
+```
+sudo apt-get install libatlas-base-dev
+```
