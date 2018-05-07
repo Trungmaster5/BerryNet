@@ -163,3 +163,7 @@ If ImportError: libcblas.so.3. Try
 ```
 sudo apt-get install libatlas-base-dev
 ```
+If ImportError: libjasper.so.1.Try
+```
+sudo apt-get install libjasper-dev
+```
